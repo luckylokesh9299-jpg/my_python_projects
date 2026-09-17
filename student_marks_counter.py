@@ -11,7 +11,6 @@ def student_marks_counter(marks):
     print(f"average = {average:.2f}")
     print("highest ",hig,sep="= ")
     print("lowest ",low,sep="= ")
-    # print("-"*18)
     # pass or fail condition
     if average >= 40:
         print("status: pass")
